@@ -1,0 +1,47 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto;
+    width: 400px;
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: lightgray;
+    color: white;
+    padding: .6em;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+thead, tfoot {
+    background-color: #383838;
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: 0;
+    background-color: #383838;
+}
+
+.estado {
+    text-align: left;
+}
+
+.populacao {
+    text-align: right;
+}
